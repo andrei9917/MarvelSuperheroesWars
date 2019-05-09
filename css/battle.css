@@ -1,0 +1,61 @@
+* {
+  font-family: "Trebuchet MS";
+}
+
+p{
+  font-size: 20px;
+}
+
+div.organizerDiv{
+  position: relative;
+  left: 25%;
+  width: 50%;
+  min-width: 600px;
+  margin-top: 100px;
+}
+
+div.planetDiv{
+  background-image: url("../data/welcomebackground.jpg");
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 1px 1em skyblue, 0 0 0.2em red;
+  text-align: center;
+  min-height: 100px;
+  margin-bottom: 10px;
+  border: 5px solid black;
+}
+
+div.battleDiv{
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.heroDiv{
+  background-color: skyblue;
+  width: 30%;
+  text-align: center;
+  border: 4px solid gray;
+  opacity: 0.9;
+  text-shadow: 1px 1px 2px orangered, 0 0 1em black, 0 0 0.2em blue;
+  color: lightgray;
+}
+
+div.statsDiv{
+  width: 20%;
+  text-align: center;
+}
+
+button[name=button]{
+  top: 50%;
+  font-size: 20px;
+}
+
+div.villanDiv{
+  background-color: orangered;
+  opacity: 0.9;
+  color: lightgray;
+  text-shadow: 1px 1px 2px skyblue, 0 0 1em black, 0 0 0.2em blue;
+  border: 4px solid gray;
+  width: 30%;
+  text-align: center;
+}

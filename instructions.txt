@@ -1,0 +1,8 @@
+Hello
+
+To run my version of Marvel Superheroes Wars, you just have to open "index.html" with the browser of your choice and the game should open right up.
+
+To change the characters / planets, it's a bit tricky but not that hard. In the folder "/configuration" you open up characters.js / planets.js and change the content of the "var characters" / "var planets" to the content of a json containing the characters / planets of your choice.
+I did this because this whole game is run locally and on some browsers I encountered a xmlhttprequest error when importing json's in my project and I wanted to make it work on at least every browser I currently have installed (Chrome, Firefox, Edge).
+
+Thanks for reading this, have fun!

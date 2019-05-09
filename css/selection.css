@@ -1,0 +1,58 @@
+* {
+  font-family: "Trebuchet MS";
+}
+
+div.menu{
+  display: flex;
+  justify-content: space-between;
+  min-width: 900px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 50px;
+}
+
+ul{
+  list-style-type: none;
+  max-width: 250px;
+}
+
+li{
+  color: darkred;
+  cursor: pointer;
+}
+
+li:hover{
+  font-size: 18px;
+}
+
+li.selected{
+  color: green;
+}
+
+div.buttonDiv{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+a{
+  text-decoration: inherit;
+  color: inherit;
+}
+
+button[name=battleButton]{
+  color: black;
+  font-size: 32px;
+  padding: 5px 20px 5px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  display: none;
+}
+
+button[name=battleButton]:hover{
+  text-decoration: underline;
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
